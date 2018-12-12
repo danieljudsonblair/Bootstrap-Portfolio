@@ -26,25 +26,37 @@ h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
 }
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white; 
+}
 #h3 {
-    /* font-family: 'Georgia', Times, Times New Roman, serif; */
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: white; 
 }
 
 .navbar {
+
     background-color: white;
     border-bottom: 4px solid #dddddd;
     margin: 0 auto 0 auto;
 }
+
 .nameholder {
     background-color: #4aaaa5;
 }
+
+.navfill {
+    /* margin: 0px 10px;
+    position: relative; */
+    min-width: 85%;
+}
+
 .content { 
-    
-    background: #eee;
     position: relative;
-    padding: 10px 25px;
-    top:30px;
+    background: #eee;
+    padding: 10px 15px;
+    top: 30px;
     text-align: left;
     font-size: 20px;    
     border: solid #dddddd 5px;
@@ -64,22 +76,32 @@ footer {
     color: lightgray;
 }
 
-.myimg{
+.myimg {
     float: left;
-    margin: 10px 10px 0 0
+    margin: 10px 10px 0 0;
 }
 
 .portfolio {
-    padding-bottom: 0px;
+     position: relative; 
+}
+
+.imageholder {
+    position: relative;
 }
 
 .boxx {
     position: relative;
-    bottom: 40px;
-    left: 38px;
+    bottom: 20%;
     background: #4aaaa5;
     color: white;
-    max-width: 200px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
     
+}
+
+.centerimage {
     
+    position: relative;
+    text-align: center;
 }
