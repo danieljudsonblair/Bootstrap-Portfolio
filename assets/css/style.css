@@ -68,8 +68,11 @@ footer {
     float: left;
     margin: 10px 10px 0 0
 }
-.images {
-    text-align: center;
-    padding: 0 auto 0 auto;
-    margin: 0 auto 0 auto;
+
+.boxx {
+    bottom: 100px;
+    background: #4aaaa5;
+    color: white;
+    
+    
 }
