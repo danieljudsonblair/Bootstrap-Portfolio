@@ -85,6 +85,10 @@ footer {
      position: relative; 
 }
 
+.prjctbox {
+    margin-bottom: 100px;
+}
+
 .imageholder {
     position: relative;
 }
